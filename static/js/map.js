@@ -2028,8 +2028,6 @@ function processPokemonChunked(pokemon, chunkSize) {
                 markers.addLayer(newMarker)
             }
         }       
-        
-           }
 
            if (oldMarker) {
         markers.removeLayer(oldMarker)
