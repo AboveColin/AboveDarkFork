@@ -1487,9 +1487,9 @@ function customizePokemonMarker(marker, item, skipNotification) {
 }
 
 function setupGymMarker(item) {
-    updateGymMarker(item, marker)
     var marker = L.marker([item['latitude'], item['longitude']])
     markers.addLayer(marker)
+    updateGymMarker(item, marker)
     if (!marker.rangeCircle && isRangeActive(map)) {
         marker.rangeCircle = addRangeCircle(marker, map, 'gym', item['team_id'])
     }
