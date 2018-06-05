@@ -538,21 +538,21 @@ function initSidebar() {
         $('#add-favorite-location-input').val('')
     })
 
-    var searchLocationInput = document.getElementById('search-favorite-location-input')
-    if (searchLocationInput) {
-        var googleSearchBox = new google.maps.places.Autocomplete(searchLocationInput)
+  //  var searchLocationInput = document.getElementById('search-favorite-location-input')
+//    if (searchLocationInput) {
+        //var googleSearchBox = new google.maps.places.Autocomplete(searchLocationInput)
 
-        googleSearchBox.addListener('place_changed', function () {
-            var place = googleSearchBox.getPlace()
+        //googleSearchBox.addListener('place_changed', function () {
+           // var place = googleSearchBox.getPlace()
 
-            if (!place.geometry) {
-                return
-            }
+           // if (!place.geometry) {
+            //    return
+          //  }
 
-            var loc = place.geometry.location
-            centerMap(loc.lat(), loc.lng(), 16)
-        })
-    }
+        //    var loc = place.geometry.location
+      //      centerMap(loc.lat(), loc.lng(), 16)
+    //    })
+  //  }
 }
 
 /**
