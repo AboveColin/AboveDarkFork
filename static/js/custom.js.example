@@ -9,7 +9,7 @@ $(function () {
     const scaleByRarity = true // Enable scaling by rarity. Default: true.
     const upscalePokemon = true // Enable upscaling of certain Pokemon (upscaledPokemon and notify list). Default: true.
     const upscaledPokemon = [] // Add Pokémon IDs separated by commas (e.g. [1, 2, 3]) to upscale icons. Default: [].
-    const map_style = 'roadmap' //  default: 'roadmap'. Options - look at https://github.com/RocketMap/RocketMap/blob/develop/static/data/mapstyle.json
+    const map_style = 'stylemapnik' //  default: 'stylemapnik'. Options - look at https://github.com/AboveColin/OSMDarkFork/blob/develop/static/data/mapstyle.json
     const playSound = false // Default: false.
     const playCries = false // Default: false.
     const searchMarkerStyle = 'Hidden' //  default: 'Hidden'. Options - look at https://github.com/RocketMap/RocketMap/blob/develop/static/data/searchmarkerstyle.json
